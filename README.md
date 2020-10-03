@@ -1,21 +1,28 @@
 # Healthy-Hopes
 
-#Contributors/Owners (Listed in Alphabetical Order):
-#Dhruv Batra
-#Justin Chen
-#Kevin Chen
+Contributors/Owners (Listed in Alphabetical Order):
 
-#Sources:
-#https://realpython.com/how-to-make-a-discord-bot-python/
-#http://www.pleaselive.org/hotlines/
+Dhruv Batra (dhruvbatra2@gmail.com)
 
-##Instructions
+Justin Chen (yeutyngchen@gmail.com)
 
-#Download the repository
+Kevin Chen (chen.ykevin@gmail.com)
 
-#Edit the .env file by changing the DISCORD_GUILD variable to equal the server id
 
-#Unzip and navigate to the directory 
 
-#Run commands.py
+Instructions
+
+Download the repository
+
+Edit the .env file by changing the DISCORD_GUILD variable to equal the server id
+
+Unzip and navigate to the directory 
+
+Run commands.py
+
+Sources:
+
+https://realpython.com/how-to-make-a-discord-bot-python/
+
+http://www.pleaselive.org/hotlines/
 

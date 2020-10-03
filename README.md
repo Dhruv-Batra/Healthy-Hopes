@@ -1,23 +1,17 @@
 # Mental Health Discord Bot
 https://devpost.com/software/mental-health-discord-bot
 
-Contributors/Owners (Listed in Alphabetical Order):
-
-Dhruv Batra
-
-Justin Chen
-
-Kevin Chen
-
-
+Contributors/Owners (Listed in Alphabetical Order): Dhruv Batra, Justin Chen, Kevin Chen
 
 Instructions
 
-Download the repository
+1. Download the repository and unzip it
 
-Edit the .env file by replacing the DISCORD_TOKEN variable's value with your own token obtained through the Discord Developer Portal
-Unzip and navigate to the directory 
-Run commands.py ex) py commands.py
+2. Edit the .env file by replacing the DISCORD_TOKEN variable's value with your own token obtained through the Discord Developer Portal
+
+3. Navigate to the downloaded directory within your terminal
+
+4. Run commands.py ex) py commands.py
 
 Sources:
 

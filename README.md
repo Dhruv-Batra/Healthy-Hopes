@@ -10,8 +10,12 @@
 #http://www.pleaselive.org/hotlines/
 
 ##Instructions
+
 #Download the repository
+
 #Edit the .env file by changing the DISCORD_GUILD variable to equal the server id
+
 #Unzip and navigate to the directory 
+
 #Run commands.py
 

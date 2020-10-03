@@ -20,6 +20,14 @@ async def ping(ctx):
     await ctx.send(f'{round(client.latency * 1000)}ms')#sends ping
 
 @client.command()
+async def encourage(ctx):
+    responses = ['You\'re perfect',
+                 ]
+    await ctx.send('You\'re awesome!')#sends ping
+
+
+
+@client.command()
 async def hotline(ctx):
     await ctx.send('Suicide Hotline: 800-273-8255')#suicide hotline
 

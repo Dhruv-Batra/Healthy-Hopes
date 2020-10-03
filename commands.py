@@ -51,24 +51,65 @@ async def sex(ctx):
 async def vet(ctx):
     await ctx.send('Veterans Association - Veterans Crisis Hotline: 800-273-8255')#veteran crisis line
  
- @client.command(aliases=['abort'])
+@client.command(aliases=['abort'])
 async def abortion(ctx):
     await ctx.send('National Domestic Violence Hotline - Abortion Hotline: 800-799-SAFE')#abortion hotline
- 
- @client.command()
-async def help(ctx):
-    helptext = "```"
-    for command in self.bot.commands:
-        helptext+=f"{command}\n"
-    helptext+="```"
-    await ctx.send(helptext)#should return all commands
 
 @client.command()
-async def coronavirus():
-    await ctx.send('Protect yourself from the virus! \
-                    \n While 25 feet is recommended, be sure to try to stay at least \
-                    6 feet from people you don\'t normally come in contact with! \
-                    \n If you would like more information, feel free to call the CDC \
-                    coronavirus hotline! : 1-800-CDC-INFO (1-800-232-4636)')
+async def coronavirus(ctx):
+    await ctx.send('Protect yourself from the virus! \n While 25 feet is recommended, be sure to try to stay at least')
+    await ctx.send('6 feet from people you don\'t normally come in contact with!')
+    await ctx.send( 'f you would like more information, feel free to call the CDC')
+    await ctx.send('coronavirus hotline! : 1-800-CDC-INFO (1-800-232-4636)')
+
+@client.event
+async def on_message(message):
+    await client.process_commands(message)
+    if message.author == client.user:
+        return
+
+    if 'kys' in message.content.lower():
+        response = "That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'faggot' in message.content.lower():
+        response = "That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'fag' in message.content.lower():
+        response = "That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'fuck' in message.content.lower():
+        response ="That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'nigger' in message.content.lower():
+        response = "That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'nigga' in message.content.lower():
+        response = "That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'kill urself' in message.content.lower():
+        response = "That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'kill yourself' in message.content.lower():
+        response = "That is not appropriate to say to anyone. Please watch your language."
+        await message.channel.send(response)
+
+    if 'kms' in message.content.lower():
+        response = "Help is available, speak with a counselor today by calling the National Suicide Prevention Lifeline at 800-273-8255"
+        await message.channel.send(response)
+
+    if 'kill my self' in message.content.lower():
+        response = "Help is available, speak with a counselor today by calling the National Suicide Prevention Lifeline at 800-273-8255"
+        await message.channel.send(response)
+
+    if 'suicide' in message.content.lower():
+        response = "Help is available, Speak with a counselor today by calling the National Suicide Prevention Lifeline at 800-273-8255"
+        await message.channel.send(response)
 
 client.run(TOKEN)

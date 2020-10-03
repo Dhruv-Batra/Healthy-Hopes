@@ -21,9 +21,14 @@ async def ping(ctx):
 
 @client.command()
 async def encourage(ctx):
-    responses = ['You\'re perfect',
+    responses = ['You can reach your goals!',
+                 'You\'re wonderful!',
+                 'You\'re amazing!',
+                 'You\re the best!',
+                 'Keep going, you\'re almost there!',
+                 'You are worth it!'
                  ]
-    await ctx.send('You\'re awesome!')#sends ping
+    await ctx.send(random.choice(responses))#sends encouragement
 
 
 

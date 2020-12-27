@@ -13,6 +13,7 @@ Instructions
 
 4. Run commands.py ex) py commands.py
 
+
 Sources:
 
 https://realpython.com/how-to-make-a-discord-bot-python/
